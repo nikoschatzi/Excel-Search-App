@@ -27,7 +27,7 @@ This implementation uses:
 To get started you simply have to run the installation file and complete the installation. 
 
 ### User manual
-The reason 
+This application needs two input excel files. For example the first file can contain the list of components needed for the design of a new card (altium.xlsx), and the second one an excel file with all the components which are on a specific store (store 36.xlsx). 
 
 ### Modifing the source code
 PyCharm was used for the creation of this app. In order to run the python script you need to have the following libs installed: 
