@@ -14,7 +14,7 @@ Application for comparing strings between two excel files. Developed for CERN TE
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 The repository includes the installation (.exe) file and the source code of the application.
-The application was implemented for TE-CRG-IC in order to for search existing components in stores, when a new design is about to start.
+The application was implemented for TE-CRG-IC in order to search for existing components in stores, when a new design is about to start.
   
 This implementation uses:
 - customtkinter library for GUI
@@ -43,5 +43,19 @@ PyCharm was used for the creation of this app. In order to run the python script
   </a>
   <h3 align="center">Excel Search App</h3>
 </p>
-You also have to manually replace the original library folder 'customtkinter' using the folder from this repo to your site-packages file because it has some minor modifications.  
+You also have to manually replace the original library folder 'customtkinter' using the folder from this repo to your site-packages file because it has some minor modifications. Make sure all necessary gifs and photos are included. 
+
+### Converting py to exe
+- Make sure that all needed libraries are installed to your computer
+- Install auto_py_to_exe application
+- Open cmd and run: python -m auto_py_to_exe
+- Define the main.py script location
+- Select --> One Directory and Window Based (hide the console) options
+- Select the 'custontkinter' location folder as an additional file
+- All libraries, logos and gifs should be selected as additional files. You can simply include a folder which contains all of them
+- Define output directory from settings
+- Convert!
+
+### Converting exe to installation file
+You can easily do this by using [NSIS](https://nsis.sourceforge.io/Download) application. Simply convert the produced from auto_py_to_exe folder to zip and use the NSIS app. If you wish to get better - more beautiful result you can use [Advanced installer](https://www.advancedinstaller.com/). It also has an option to produce a shortcut to the desktop after installation. 
 
