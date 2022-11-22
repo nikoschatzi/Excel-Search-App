@@ -7,7 +7,7 @@ Application for comparing strings between two excel files. Developed for CERN TE
   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="app.png" alt="Logo" width="555" height="380">
   </a>
-  <h3 align="center">Excel Search App</h3>
+  <h3 align="center">Excel Search App GUI</h3>
 </p>
 
 
@@ -41,7 +41,7 @@ PyCharm was used for the creation of this app. In order to run the python script
   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="libs.png" alt="Logo" width="555" height="380">
   </a>
-  <h3 align="center">Excel Search App</h3>
+  <h3 align="center">Libraries</h3>
 </p>
 You also have to manually replace the original library folder 'customtkinter' using the folder from this repo to your site-packages file because it has some minor modifications. Make sure all necessary gifs and photos are included. 
 
