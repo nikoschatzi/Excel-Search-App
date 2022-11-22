@@ -5,7 +5,7 @@ Application for comparing strings between two excel files. Developed for CERN TE
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="app.png" alt="Logo" width="505" height="380">
+    <img src="app.png" alt="Logo" width="555" height="380">
   </a>
   <h3 align="center">Excel Search App</h3>
 </p>
