@@ -35,6 +35,7 @@ Apart from the search part some columns from input files can be printed to the p
 
 Be sure that input and output excel files are closed during the execution of the code.
 
+<!-- Modifing the source code -->
 ### Modifing the source code
 PyCharm was used for the creation of this app. In order to run the python script you need to have the following libs installed: 
 <br />
