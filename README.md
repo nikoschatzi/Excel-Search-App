@@ -13,19 +13,18 @@ Application for comparing strings between two excel files. Developed for CERN TE
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-The repository includes a class implementing RSA algorithm, an example showing its use and a script to test it. 
-The algorithm was implemented in the Computer Systems Security course of the 9th semester of DUTh.
+The repository includes the installation (.exe) file and the source code of the application.
+The application was implemented for TE-CRG-IC in order to for search existing components in stores, when a new design is about to start.
   
 This implementation uses:
-- two primes to calculate n    
-- extended GCD method to find the private key(d)    
-- Miller-Rabin for primality checking  
-- key size 2048 (but it can be easily adjusted for any key size)  
+- customtkinter library for GUI
+- openpyxl library for working with excel files    
+- smart fuzzywuzzy string search algorithm
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
-To get started make sure you have installed all the prerequisites in your computer and then follow the instuctions in the installation section.
+To get started you simply have to run the installation file and complete the installation. The app will be installed and fully functional. 
 
 ### Prerequisites
 To compile this implementation of RSA you will need:
@@ -47,17 +46,4 @@ make
 - Add a file named plain.txt with the message you want to encrypt before running the output file.
 
 To run the tests, follow the same procedure.
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be, learn, inspire, and create.  
-Contribute following the above steps:
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b new_branch_name`)
-3. Commit your Changes (`git commit -m 'Add some extra functionality'`)
-4. Push to the Branch (`git push origin new_branch_name`)
-5. Open a Pull Request  
 
