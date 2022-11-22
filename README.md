@@ -24,7 +24,7 @@ This implementation uses:
 
 <!-- GETTING STARTED -->
 ## Getting Started
-To get started you simply have to run the installation file and complete the installation. 
+To get started you simply have to run the installation file and complete the installation. Application shortcut will be created to desktop. 
 
 ### User manual
 This application needs two input excel files. For example the first file contains the list of components needed for the design of a new card (altium.xlsx), and the second one an excel file with all the components which are on a specific store (store 36.xlsx). This application can use up to 3 columns of the first excel (request) file and search for the strings of these columns to the second (database) file. One column of the database file can be used. Two output excel files are produced, one contains the components founds, while the other the components not found. 
