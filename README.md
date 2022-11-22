@@ -5,15 +5,9 @@ Application for comparing strings between two excel files. Developed for CERN TE
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="app.png" alt="Logo" width="70" height="70">
+    <img src="app.png" alt="Logo" width="705" height="380">
   </a>
   <h3 align="center">Excel Search App</h3>
-</p>
-
-
-
-<p align="center">
-<img src="https://github.com/emmanouilidisk/RSA_Algorithm/blob/main/Demonstration.gif" align="center" width="705" height="380" />
 </p>
 
 
