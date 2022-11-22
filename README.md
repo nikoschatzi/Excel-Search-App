@@ -27,12 +27,7 @@ This implementation uses:
 To get started you simply have to run the installation file and complete the installation. 
 
 ### User manual
-The reason for the creation of this app was to automate the procedure of searching components in stores (on EAM). 
-- [cmake](https://cmake.org/download/)
-- [boost](https://www.boost.org/users/download/) library, which can also be extracted from the 7z included
-  - Make sure to include the path of the library in the CMakeLists
-- A compiler that supports std11 and threading
-  - (This project was tested with [mingw64](http://mingw-w64.org/doku.php) version 8)
+The reason 
 
 ### Modifing the source code
 PyCharm was used for the creation of this app. In order to run the python script you need to have the following libs installed: 
