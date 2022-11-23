@@ -32,9 +32,9 @@ This application needs two input excel files. For example the first file contain
 
 When two strings are compared, score is produced. The higher the score the more similar these strings are. Smart search algorithm is used (behaves similar to google search). User is able to define the threshold score value, suggested value is 60. Multiple suggestions for one component can be produced. For example, there might be multiple suggestions for components from database (store 36) for one component needed for our card design. Depending on the match score different coloring is implemented on the results. 
 
-Apart from the search part some columns from input files can be printed to the produced output excel files (eg quantity requested and quantity found on the database-store). User has to properly define the column names. 
-
 Be sure that input and output excel files are closed during the execution of the code.
+
+Optinal: Apart from the search part some columns from input files can be printed to the produced output excel files (eg quantity requested and quantity found on the database-store). User has to properly define the column names. 
 
 <!-- Modifing the source code -->
 ## Modifing the source code
@@ -55,7 +55,7 @@ You also have to manually replace the original library folder 'customtkinter' us
 - Open cmd and run: python -m auto_py_to_exe
 - Define the main.py script location
 - Select --> One Directory and Window Based (hide the console) options
-- Select the 'custontkinter' location folder as an additional file
+- Select the 'customtkinter' location folder as an additional file
 - All libraries, logos and gifs should be selected as additional files. You can simply include a folder which contains all of them
 - Define output directory from settings
 - Convert!
