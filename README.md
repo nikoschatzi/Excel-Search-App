@@ -13,8 +13,8 @@ Application for comparing strings between two excel files. Developed for CERN TE
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-The repository includes the installation (.exe) file and the source code of the application.
-The application was implemented for TE-CRG-IC in order to search for existing components in stores, when a new design is about to start.
+Repository includes the installation (.exe) file and the source code of the application.
+This application was implemented for TE-CRG-IC in order to search for existing components in stores, when a new design is about to start.
   
 This implementation uses:
 - customtkinter library for GUI
@@ -32,9 +32,14 @@ This application needs two input excel files. For example the first file contain
 
 When two strings are compared, score is produced. The higher the score the more similar these strings are. Smart search algorithm is used (behaves similar to google search). User is able to define the threshold score value, suggested value is 60. Multiple suggestions for one component can be produced. For example, there might be multiple suggestions for components from database (store 36) for one component needed for our card design. Depending on the match score different coloring is implemented on the results. 
 
-Be sure that input and output excel files are closed during the execution of the code.
+Be sure that input and output excel files are closed during the execution of the code. 
 
-Optinal: Apart from the search part some columns from input files can be printed to the produced output excel files (eg quantity requested and quantity found on the database-store). User has to properly define the column names. 
+Optional: 
+- Apart from the search part some columns from input files can be printed to the produced output excel files (eg quantity requested and quantity found on the database-store). User has to properly define the column names and specify to column to be printed to output file
+- User can use less than 3 request search columns. Leave empty textboxes
+- There is an option to stop search after a specific line from input request file
+
+This application can be used for any excel file (.xlsx) column strings comparison. 
 
 <!-- Modifing the source code -->
 ## Modifing the source code
