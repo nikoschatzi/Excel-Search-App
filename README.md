@@ -64,8 +64,3 @@ You also have to manually replace the original library folder 'customtkinter' us
 - All libraries, logos and gifs should be selected as additional files. You can simply include a folder which contains all of them
 - Define output directory from settings
 - Convert!
-
-<!-- Converting exe to installation file -->
-## Converting exe to installation file
-You can easily do this by using [NSIS](https://nsis.sourceforge.io/Download) application. Simply convert the produced from auto_py_to_exe folder to zip and use the NSIS app. If you wish to get better - more beautiful result you can use [Advanced installer](https://www.advancedinstaller.com/). It also has an option to produce a shortcut to the desktop after installation. 
-
